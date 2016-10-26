@@ -8,5 +8,8 @@
         <dependent-module archiveName="sisgit-ejb.jar" deploy-path="/" handle="module:/resource/sisgit-ejb/sisgit-ejb">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="jboss-jms-api_2.0_spec.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/jboss/spec/javax/jms/jboss-jms-api_2.0_spec/1.0.0.Final/jboss-jms-api_2.0_spec-1.0.0.Final.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
     </wb-module>
 </project-modules>
